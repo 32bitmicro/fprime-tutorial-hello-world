@@ -306,7 +306,7 @@ With this step completed you can generate a basic implementation with the follow
 fprime-util impl
 ```
 
-`fprime-util impl` creates `HelloWorld.hpp-template` and `HelloWorld.cpp-template` which contain empty functions based on what we have written in the FPP file. While normally one would merge new templates with the existing code, we will instead overwrite the existing implementations as we have not edited those files yet. To do this:
+`fprime-util impl` creates `HelloWorld.template.hpp` and `HelloWorld.template.cpp` which contain empty functions based on what we have written in the FPP file. While normally one would merge new templates with the existing code, we will instead overwrite the existing implementations as we have not edited those files yet. To do this:
 
 ```bash
 mv HelloWorld.template.hpp HelloWorld.hpp
